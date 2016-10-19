@@ -1,0 +1,22 @@
+= REST application example
+
+This project is an example about how works an application REST with spring boot.
+
+Is a simple application with a data access embebed with H2, and a user table.
+
+The tier web has two methods, the first of them is get the user by username and the second method save a user in data access
+
+Furthemore the application has HATEOAS, as a tier of the Richardson Maturity Model.
+
+
+== Run it
+
+You can run it the application with
+
+----
+mvn spring-boot:run
+----
+
+----
+mvn java -jar
+----
